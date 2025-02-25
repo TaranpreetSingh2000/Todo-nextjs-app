@@ -9,7 +9,7 @@ export async function POST(request) {
     title,
     description,
   });
-  return NextResponse.json({
+  return NextResponse.json({    
     message: "Todo created successfully",
     todo: todo,
   });
